@@ -1,0 +1,28 @@
+[class$="face"] {
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+.pip {
+  place-self: center;
+}
+
+.top {
+  grid-row-start: 1;
+}
+.middle {
+  grid-row-start: 2;
+}
+.bottom {
+  grid-row-start: 3;
+}
+
+.left {
+  grid-column-start: 1;
+}
+.center {
+  grid-column-start: 2;
+}
+.right {
+  grid-column-start: 3;
+}

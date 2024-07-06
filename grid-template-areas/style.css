@@ -1,0 +1,36 @@
+[class$="face"] {
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  grid-template-areas:
+    "a . c"
+    "e g f"
+    "d . b";
+}
+
+.pip {
+  place-self: center;
+}
+
+.pip:nth-of-type(2) {
+  grid-area: b;
+}
+
+.pip:nth-of-type(3) {
+  grid-area: c;
+}
+
+.pip:nth-of-type(4) {
+  grid-area: d;
+}
+
+.pip:nth-of-type(5) {
+  grid-area: e;
+}
+
+.pip:nth-of-type(6) {
+  grid-area: f;
+}
+
+.pip:nth-of-type(odd):last-of-type {
+  grid-area: g;
+}

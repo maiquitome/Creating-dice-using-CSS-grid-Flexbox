@@ -1,0 +1,36 @@
+.pip {
+  margin: 4px;
+}
+
+[class$="face"],
+.column {
+  display: flex;
+}
+
+.second-face,
+.third-face,
+.fourth-face,
+.fifth-face,
+.sixth-face,
+.column {
+  justify-content: space-between;
+}
+
+.first-face {
+  justify-content: center;
+  align-items: center;
+}
+
+.second-face .pip:nth-of-type(2),
+.third-face .pip:nth-of-type(3) {
+  align-self: flex-end;
+}
+
+.third-face .pip:nth-of-type(2),
+.fifth-face .column:nth-of-type(2) {
+  align-self: center;
+}
+
+.column {
+  flex-direction: column;
+}

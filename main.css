@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #1b2231;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+[class$="face"] {
+  width: 104px;
+  height: 104px;
+  background-color: #54c59f;
+  border-radius: 10px;
+  margin: 16px;
+}
+
+.pip {
+  width: 24px;
+  height: 24px;
+  background-color: #080a16;
+  border-radius: 50%;
+}
